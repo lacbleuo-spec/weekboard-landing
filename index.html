@@ -229,6 +229,15 @@
   .tl-item b{font-family:var(--serif);font-size:18px;font-weight:700;display:block;margin-bottom:6px;word-break:keep-all;}
   .tl-item p{font-size:15px;color:var(--ink-soft);word-break:keep-all;}
 
+  /* ---------- MINDSET ---------- */
+  .mind{display:flex;flex-direction:column;gap:14px;margin-top:44px;}
+  .mind-card{background:#3D382F;border:1px solid #4A443B;border-radius:18px;padding:28px 26px;}
+  .mind-card .mp{font-size:11.5px;font-weight:700;letter-spacing:.12em;color:#8A8274;margin-bottom:10px;display:block;}
+  .mind-card b.mt{font-family:var(--serif);font-size:19px;font-weight:600;color:#F6F1E7;display:block;margin-bottom:10px;word-break:keep-all;}
+  .mind-card p{font-size:14.5px;color:#B7AFA2;word-break:keep-all;line-height:1.8;}
+  .mind-card .to{margin-top:12px;font-size:13.5px;color:#F0C9A8;font-weight:600;word-break:keep-all;}
+  .mind-quote{font-family:var(--serif);text-align:center;font-size:clamp(19px,3.2vw,24px);line-height:1.9;color:#F6F1E7;margin-top:48px;word-break:keep-all;}
+
   /* ---------- CLOSING ---------- */
   .closing{text-align:center;background:radial-gradient(ellipse 70% 55% at 50% 110%,#F7E8DA 0%,var(--bg) 65%);}
   .closing h2{font-size:clamp(24px,4.2vw,34px);}
@@ -271,17 +280,17 @@
 <section class="dark">
   <div class="wrap fade">
     <span class="label" style="background:#4A443B;color:#F0C9A8;">겪어 본 사람만 아는 순서</span>
-    <h2>1월 계획이 밀리는 순간,<br>1년 전체가 실패처럼<br>느껴진 적 있죠?</h2>
+    <h2>하루 계획이 밀리는 순간,<br>전체 계획이 실패한 것처럼<br>느껴진 적 있죠?</h2>
     <div class="domino">
-      <div class="dm"><span class="n">1</span>1월 계획이 밀린다</div>
+      <div class="dm"><span class="n">1</span>하루 계획이 밀린다</div>
       <div class="dm-arrow">↓</div>
-      <div class="dm"><span class="n">2</span>2월 계획이 흔들린다</div>
+      <div class="dm"><span class="n">2</span>월 목표가 흔들린다</div>
       <div class="dm-arrow">↓</div>
-      <div class="dm"><span class="n">3</span>1분기 목표가 무너진다</div>
+      <div class="dm"><span class="n">3</span>분기 목표가 무너진다</div>
       <div class="dm-arrow">↓</div>
       <div class="dm"><span class="n">4</span>연간 계획 전체가 실패처럼 느껴진다</div>
       <div class="dm-arrow">↓</div>
-      <div class="dm last"><span class="n" style="background:#5A4040;color:#E4B9B9;">5</span>계획표를 다시는 펴지 않는다</div>
+      <div class="dm last"><span class="n" style="background:#5A4040;color:#E4B9B9;">5</span>계획은 잊혀진다</div>
     </div>
     <div class="turn">무너진 건 당신의 삶이 아닙니다.<br><span class="em">계획의 '구조'</span>였습니다.<br>촘촘하게 얽힌 계획은 작은 수정 하나를<br>전체를 흔드는 사건으로 만듭니다.</div>
   </div>
@@ -534,7 +543,43 @@
   </div>
 </section>
 
-<!-- ⑩ CLOSING -->
+<!-- ⑩ MINDSET -->
+<section class="dark">
+  <div class="wrap fade">
+    <span class="label" style="background:#4A443B;color:#F0C9A8;">도구보다 깊은 이야기</span>
+    <h2>계획보다 먼저 무너지는 건<br>마음입니다.<br>위크보드는 마음까지 설계했습니다.</h2>
+    <p class="body">『다정한 플래닝』이 말하는 네 가지 마음의 원리가, 위크보드의 사용 방식 곳곳에 녹아 있습니다.</p>
+    <div class="mind">
+      <div class="mind-card">
+        <span class="mp">원리 1 — 반복되는 생각은 현실이 된다</span>
+        <b class="mt">사람은 자주 바라보는 쪽으로 움직입니다</b>
+        <p>한 번의 결심은 하루의 소음에 묻히지만, 매일 다시 본 문장은 기준이 되고 행동이 됩니다.</p>
+        <div class="to">→ 그래서 위크보드는 인생 한 줄과 목표를 매일 다시 보게 만듭니다.</div>
+      </div>
+      <div class="mind-card">
+        <span class="mp">원리 2 — 단어의 방향이 마음의 방향</span>
+        <b class="mt">"걱정하지 말기"라고 적으면, 하루 종일 걱정만 떠오릅니다</b>
+        <p>마음은 '하지 말자'보다 문장 속 "걱정"이라는 단어를 먼저 붙잡습니다. 피하고 싶은 것이 아니라 선택하고 싶은 마음과 행동을 적어야 합니다.</p>
+        <div class="to">→ 그래서 위크보드의 목표는 "마음 편안하게 지내기"처럼 긍정의 문장으로 적습니다.</div>
+      </div>
+      <div class="mind-card">
+        <span class="mp">원리 3 — 상상은 현실이 된다</span>
+        <b class="mt">계속 미뤄지는 목표는, 이룬 날의 '감정'까지 상상해 보세요</b>
+        <p>합격이라는 결과가 아니라 그날의 기쁨이, 건강이라는 단어가 아니라 아침의 가벼움이 사람을 다시 움직입니다.</p>
+        <div class="to">→ 목표가 멀게 느껴지는 주엔, 그 삶의 감각을 먼저 떠올려 보세요.</div>
+      </div>
+      <div class="mind-card">
+        <span class="mp">원리 4 — 믿음은 현실이 된다</span>
+        <b class="mt">오늘의 내가 믿어지지 않는 날엔, 미래의 나를 믿으면 됩니다</b>
+        <p>실패가 쌓인 날엔 분석도 계획도 버겁습니다. 그럴 때는 아무 생각 말고 믿어보세요.</p>
+        <div class="to">→ "미래의 나는 내가 바라던 삶에 닿아 있다." 내일, 다시 이번 주 계획으로 돌아오면 됩니다.</div>
+      </div>
+    </div>
+    <div class="mind-quote">위크보드는 나를 채점하는 도구가 아니라,<br>내가 바라는 삶을 <span class="em">매일 다시 바라보게 하는 도구</span>입니다.</div>
+  </div>
+</section>
+
+<!-- ⑪ CLOSING -->
 <section class="closing">
   <div class="wrap fade">
     <span class="label">이번 주부터</span>
